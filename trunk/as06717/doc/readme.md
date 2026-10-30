@@ -10,8 +10,8 @@
 
 
 <p align="center">Лабораторная работа №1</p>
-<p align="center">По дисциплине “Общая теория интеллектуальных систем”</p>
-<p align="center">Тема: “Моделирования температуры объекта”</p>
+<p align="center">По дисциплине “Теория и моделирование автоматического управления”</p>
+<p align="center">Тема: “Моделирование объектов управления”</p>
  
 
 
@@ -96,3 +96,17 @@ classDiagram
     Model <|-- ArModel
     Model <|-- TanhModel
     Model <|-- IntegratorModel
+
+## 4. Результаты моделирования
+
+### Model 1.8 — Generalized Autoregressive Linear Model
+
+![График Model 1.8 ](iter_plot1.png)
+
+### Model 2.10 — Hyperbolic Tangent Smoothing
+
+![График Model 2.10 ](iter_plot2.png)
+
+### Model 3.2 — Pure Constant Input Drive
+
+![График Model 3.2 ](iter_plot3.png)
